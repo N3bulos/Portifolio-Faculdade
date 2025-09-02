@@ -1,0 +1,75 @@
+/* Estilo geral do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+/* Cabeçalho com título e menu */
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seções principais */
+
+section {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    height: 75vh;
+    overflow: hidden;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
